@@ -1,0 +1,7 @@
+version: "2"
+services:
+  base_pwn_kernel:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ctfhub/base_pwn_kernel_xinetd_2004

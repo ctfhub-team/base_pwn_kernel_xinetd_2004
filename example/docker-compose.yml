@@ -1,0 +1,9 @@
+version: "2"
+services:
+  challenge:
+    build: .
+    image: base_pwn_kernel_example
+    ports:
+      - "10000:10000"
+    environment:
+      - FLAG=ctfhub{base_pwn_kernel_example}
